@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Audio Player</title>
+</head>
+<body>
+    <h1> Audio Player</h1>
+<div class="border">
+    <h3>Choose the file</h3>
+    <input type="file" id="audioFileInput" accept=".mp3"><br>
+
+<div id="playlist">
+    <h3>Playlist</h3>
+    <ul id="playlistItems"></ul>
+</div>
+
+    <audio controls id="myAudio">
+        <source  src="audio.mp3" type="audio/mp3 ">
+        Your browser does not support the audio element.
+       
+    </audio>
+    <br>
+    <button id="play" >Play</button>
+    <button id="pause" >Pause</button>
+</div>
+   
+
+   
+<script src="audio-file.js"></script>
+
+</body>
+</html>
